@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --primary-color: #4281A4;
+    --secondary-color: #48A9A6;
+    --accent1-color: #E4DFDA;
+    --accent2-color: #D4B483;
+
+    --heading-font: Arimo, sans-serif;
+    --paragraph-font: Arimo, sans-serif;
+   
+    --nav-background-color: #4281A4;
+    --nav-link-color: #48A9A6;
+    --nav-hover-link-color: #E4DFDA;
+    --nav-hover-background-color: #D4B483;
+
+    }
+
+    body {
+        font-family: var(--paragraph-font);
+        padding: 20px;
+    }
+    
+    h1 {
+        font-family: var(--heading-font);
+        color: #E4DFDA;
+        background-color: #48A9A6;
+        
+    }
+
+    h2 {
+        font-family: var(--heading-font);
+        color: var(--primary-color);
+        
+    }
+    
+    .hero {
+        position: relative;
+        max-width: 100%;
+    }
+    .hero h1 {
+        position: absolute;
+        left: 40%;
+        top: 10%;
+        text-align: center;
+    }
+
+    .hero article {
+        position: absolute;
+        background-color: #48A9A6;
+        opacity: 0.9;
+        top: 35%;
+        left: 15%
+        
+    }
+    
+    .hero img {
+        display: block;
+        margin: 0 auto;
+        width: 95%;
+        height: auto;
+        padding: 3px;
+        
+    }
+    
+    .hero article img {
+        float: right;
+        width: 35%;
+        height: auto;
+
+    }
+
+    p {
+        max-width: 960px;
+        padding: 25px;
+    }
+    .sociallinks {
+        width: 5%;
+        height: auto;
+        text-decoration: none;
+    }
+
