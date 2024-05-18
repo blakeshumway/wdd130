@@ -21,7 +21,7 @@
         display: grid;
         grid-template-columns: 1fr 3fr 1fr;
         align-items: center;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #ffffff;
     }
 
     .logo img {
@@ -65,8 +65,8 @@
     
     h1 {
         font-family: var(--heading-font);
-        color: white;
-        background-color: #48A9A6;
+        color: black;
+        background-color: #D4B483;
         
     }
 
@@ -128,7 +128,7 @@
 
     .hero article {
         position: absolute;
-        background-color: #48A9A6;
+        background-color: #D4B483;
         opacity: 0.9;
         top: 35%;
         left: 15%
