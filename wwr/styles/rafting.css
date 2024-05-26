@@ -175,3 +175,119 @@
         justify-self: center;
         grid-column: 2;
     }
+
+
+
+
+/* contact.html styling */
+
+.contact {
+    background-color: #D4B483;
+   
+}
+.contact-heading {
+    text-align: center;
+    padding: 20px;
+}
+
+.banner h1{
+    text-align: center;
+}
+
+ .banner img {
+     display: block;
+     margin: 0 auto;
+     width: 95%;
+     height: auto;
+     padding: 3px;
+ }
+        
+
+.contact {
+    text-align: center
+    
+}
+.contact h3 {
+    padding: 30px;
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.employees h2 {
+    grid-column: 1 / 6;
+    text-align: center;
+}
+
+.employees img {
+    width: 20rem;
+    height: auto;
+    justify-content: center;
+}
+.employees figcaption {
+    padding: 10px;
+    padding-right: 110px;
+}
+
+
+
+/* Question box styling */
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #D4B483;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 1.5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+
+
+/* optional? */
+label, input, button, select, textarea {
+    font-family:sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+/* This is critical in order to provide spacing inside of the form input elements */
+input, select {
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+textarea {
+    padding:1.5rem;
+    font-size: 1.1rem;
+}
+
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
