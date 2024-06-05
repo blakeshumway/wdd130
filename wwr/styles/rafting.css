@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
 
 :root {
-    --primary-color: #4281A4;
+    --primary-color: #275d7a; /*#4281A4*/
     --secondary-color: #48A9A6;
     --accent1-color: #E4DFDA;
     --accent2-color: #D4B483;
@@ -9,7 +9,7 @@
     --heading-font: Arimo, sans-serif;
     --paragraph-font: Arimo, sans-serif;
    
-    --nav-background-color: #4281A4;
+    --nav-background-color: #275d7a;
     --nav-link-color: #48A9A6;
     --nav-hover-link-color: #E4DFDA;
     --nav-hover-background-color: #D4B483;
@@ -46,7 +46,7 @@
 
    .navigation a {
     display: block;
-    color: #4281A4;
+    color: #275d7a;
     padding: 20px;
     text-decoration: none;
     text-align: center;
@@ -95,7 +95,7 @@
     .history img {
         height: 300px;
         width: auto;
-        border: 3px solid #4281A4;
+        border: 3px solid #275d7a;
     }
 
     .adventure {
@@ -156,7 +156,7 @@
         text-align: center;
     }
 
-    p {
+    .hero p {
         max-width: 960px;
         padding: 25px;
     }
@@ -179,7 +179,7 @@
 
 
 
-/* contact.html styling */
+/* contact.html specific styling */
 
 .contact {
     background-color: #D4B483;
@@ -280,7 +280,7 @@ textarea {
 
 button {
     margin: 1rem;
-    background-color: navy;
+    background-color: #275d7a;
     color: #fff;
     border: none;
     border-radius: .5rem;
@@ -290,4 +290,260 @@ button {
 
 button:hover {
     background-color: darkgreen;
+}
+
+
+
+/* trips.html specific styling */
+.contact-us {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+  
+}
+
+.contact-us p {
+    padding: 30px;
+    font-size: 23px;
+}
+
+.contact-button {
+    padding: 16px 65px;
+    font-size: 20px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    width: 200px;
+    margin: 0 auto;
+    text-decoration: none;
+    border: none;
+}
+.contact-button:hover {
+background-color: rgb(10, 107, 10);
+}
+
+
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+
+
+.our-trips {
+    display: grid;
+    /*grid-column: 1 / 1;
+    justify-content: center;*/
+}
+
+.our-trips h2 {
+    font-size: 35px;
+    text-align: center;
+    grid-column: 4 / 1;
+   
+}
+
+.our-trips p {
+    text-align: center;
+}
+
+
+
+.our-trips img {
+    width: 20rem;
+    height: auto;
+    border: 3px solid #275d7a;
+    
+    
+}
+.our-trips figcaption {
+    padding: 10px;
+    padding-bottom: 80px;
+}
+
+/*Trips flexbox*/
+.trips-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.left-column img{
+height: 450px;
+border: 3px solid #275d7a;
+}
+
+.right-column
+{
+    padding-top: 60px;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+  
+  caption {
+    caption-side:top;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  thead, tfoot {
+    background-color: #D4B483;
+  }
+  
+  th, td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
+
+  /* Home page Specific code */
+
+  .hero-homepage {
+    position: relative;
+    max-width: 100%;
+    padding: 10px;
+}
+.hero-homepage h1 {
+    position: absolute;
+    right: 15%;
+    top: 10%;
+    text-align: center;
+    font-size: 45px
+}
+
+.hero-homepage article {
+    position: absolute;
+    background-color: #D4B483;
+    opacity: 0.9;
+    top: 35%;
+    left: 15%
+    
+}
+
+.hero-homepage img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 3px;
+    padding-bottom: 50px;
+    
+    
+}
+
+
+figcaption {
+    text-align: center;
+}
+
+
+.our-trips {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    /*background-color: rgb(246, 246, 246);*/
+}
+
+.our-trips p {
+    padding: 30px;
+    font-size: 23px;
+}
+
+.trips-button {
+    padding: 16px 65px;
+    font-size: 20px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    width: 200px;
+    margin: 0 auto;
+    text-decoration: none;
+    border: none;
+}
+.trips-button:hover {
+background-color: rgb(10, 107, 10);
+}
+
+.our-purpose {
+    display: grid;
+    background-color: #eeeeed;
+    /*grid-column: 1 / 1;
+    justify-content: center;*/
+}
+
+.our-purpose h2 {
+    font-size: 35px;
+    text-align: center;
+    grid-column: 4 / 1;
+   
+}
+
+.our-purpose p {
+    text-align: center;
+}
+
+
+
+.our-purpose img {
+    width: 25rem;
+    height: auto;
+    border: 3px solid #275d7a;
+
+    
+}
+.our-purpose figcaption {
+    padding: 10px;
+    padding-bottom: 80px;
+}
+
+/*homepage flexbox*/
+.homepage-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.homepage-column-left {
+    background-color: #eeeeed;
+    padding-top: 100px;
+    padding: 10px
+}
+.homepage-column-left h3{
+    text-align: center;
+        font-family: var(--heading-font);
+        color: var(--primary-color); 
+        font-size: 50px;
+       text-decoration: underline;
+}
+.homepage-column-left h2{
+ text-align: center;
+ font-size: 25px;
+ padding-top: 15px;
 }
