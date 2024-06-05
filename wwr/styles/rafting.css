@@ -359,7 +359,7 @@ hr.solid {
 }
 .our-trips figcaption {
     padding: 10px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 /*Trips flexbox*/
@@ -528,6 +528,7 @@ background-color: rgb(10, 107, 10);
     display: flex;
     justify-content: space-evenly;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .homepage-column-left {
