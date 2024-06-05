@@ -327,6 +327,7 @@ background-color: rgb(10, 107, 10);
 
 hr.solid {
     border-top: 3px solid #bbb;
+    width: 800px;
   }
 
 
